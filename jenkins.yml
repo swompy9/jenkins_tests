@@ -8,7 +8,6 @@ services:
     links:
     - dnmonster
     - redis
-    - jenkins
 
   dnmonster:
     image: amouat/dnmonster
